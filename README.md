@@ -3,7 +3,7 @@
 This service provides an API for managing NaceDetails entities. It allows uploading NaceDetails from a CSV file, retrieving NaceDetails by ID.
 Service is built using Spring Boot and uses an in-memory H2 database to store the NaceDetails.
 NaceDetailsService.java is the service class that provides the business logic for managing NaceDetails. It build with more
-CRUD operations like for extending the functionality in future which is not exposed in the controller.
+CRUD operations for extending the functionality in future which is not exposed in the controller.
 
 ## Prerequisites
 
