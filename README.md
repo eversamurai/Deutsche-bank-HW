@@ -35,16 +35,18 @@ mvn spring-boot:run
 ```
 ##Generating the Executable JAR
 To generate the executable JAR file, use the following command:
+
 ```sh
 ./mvnw clean package
 ```
+
 The generated JAR file will be located in the target directory.
 
-##Usage
+## Usage
 Once the application is running, you can access the API at http://localhost:8080/v1/api/nace
 Or check the swagger documentation at http://localhost:8080/swagger-ui.html
 
-#Endpoints
+# Endpoints
 POST /v1/api/nace/putNaceDetails/csv - Upload NaceDetails from a CSV file.
 GET /v1/api/nace/{id} - Retrieve NaceDetails by ID.
 GET /v1/api/heathCheck - Check the health of the application.
