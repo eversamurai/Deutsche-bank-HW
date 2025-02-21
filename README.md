@@ -21,6 +21,7 @@ CRUD operations for extending the functionality in future which is not exposed i
 2. Install the Maven Wrapper:
     ```sh
     mvn -N io.takari:maven:wrapper
+    mvn wrapper:wrapper
     ```
 
 ## Running the Application
@@ -43,10 +44,10 @@ To generate the executable JAR file, use the following command:
 The generated JAR file will be located in the target directory.
 
 ## Usage
-Once the application is running, you can access the API at http://localhost:8080/v1/api/nace
+Once the application is running, you can access the API at http://localhost:8080/v1/api/nace <br>
 Or check the swagger documentation at http://localhost:8080/swagger-ui.html
 
 # Endpoints
-POST /v1/api/nace/putNaceDetails/csv - Upload NaceDetails from a CSV file.
-GET /v1/api/nace/{id} - Retrieve NaceDetails by ID.
-GET /v1/api/heathCheck - Check the health of the application.
+POST /v1/api/nace/putNaceDetails/csv - Upload NaceDetails from a CSV file. <br>
+GET /v1/api/nace/{id} - Retrieve NaceDetails by ID. <br>
+GET /v1/api/heathCheck - Check the health of the application. <br>
