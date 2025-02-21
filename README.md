@@ -28,8 +28,8 @@ CRUD operations for extending the functionality in future which is not exposed i
 To run the application using Spring Boot, use the following command:
 ```sh
 ./mvnw spring-boot:run
-
-# Or, if you have Maven installed:
+```
+or, if you have Maven installed:
 ```sh
 mvn spring-boot:run
 ```
