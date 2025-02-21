@@ -14,7 +14,7 @@ CRUD operations for extending the functionality in future which is not exposed i
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/your-repo/deutsche-bank-hw.git
+    git clone https://github.com/eversamurai/Deutsche-bank-HW.git
     cd deutsche-bank-hw
     ```
 
