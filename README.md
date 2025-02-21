@@ -33,7 +33,7 @@ or, if you have Maven installed:
 ```sh
 mvn spring-boot:run
 ```
-##Generating the Executable JAR
+## Generating the Executable JAR
 To generate the executable JAR file, use the following command:
 
 ```sh
